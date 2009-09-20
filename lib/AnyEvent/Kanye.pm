@@ -20,7 +20,7 @@ sub send {
 	$self->SUPER::send(
 		"This value is pretty good, and I'm going to let " .
 		" you finish, but Beyonce had one of the best "    . 
-		(ref($thing) || "value") . " of all times!"
+		(ref($thing) || "values") . " of all times!"
 	);
 }
 
