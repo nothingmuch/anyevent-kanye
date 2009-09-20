@@ -18,7 +18,7 @@ sub send {
 	my ( $self, $thing ) = @_;
 
 	$self->SUPER::send(
-		"This value is pretty good, and I'm going to let " .
+		"I'm real happy for you, I'm going to let " .
 		" you finish, but Beyonce had one of the best "    . 
 		(ref($thing) || "values") . " of all times!"
 	);
