@@ -10,7 +10,7 @@ use Lingua::EN::Inflect qw(PL);
 
 BEGIN { our @ISA = "AnyEvent::CondVar" }
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 sub condvar {
 	my ( $class, @args ) = @_;
