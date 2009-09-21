@@ -12,6 +12,7 @@ WriteMakefile(
     PL_FILES     => { },
     PREREQ_PM    => {
 		'AnyEvent' => 0,
+		'Lingua::EN::Inflect' => 0,
 		'Test::More' => 0,
 		'Test::use::ok' => 0,
     },
