@@ -40,7 +40,7 @@ AnyEvent::Kanye - The best kind of interrupt
 
 =head1 SYNOPSIS
 
-	my $cond = AnyEvent::Kanye->cond_var;
+	my $cond = AnyEvent::Kanye->condvar;
 
 	$cond->cb(sub {
 		warn = $_[0]->recv;
